@@ -1,0 +1,1 @@
+Directory for sharing files between host and guest.
