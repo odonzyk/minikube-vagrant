@@ -2,6 +2,7 @@ $script_setup = <<-SCRIPT
 echo Updating your VM...
 apt-get update
 apt-get upgrade -y
+apt-get -y install conntrack
 
 echo Install Docker, kubectl, Firefox and some other tools...
 apt-get install -y apt-transport-https gnupg-agent
